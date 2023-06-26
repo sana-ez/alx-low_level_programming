@@ -28,3 +28,6 @@ if (h != NULL)
 h->prev = new;
 *head = new;
 return (new);
+*head = new;
+return (new);
+}
